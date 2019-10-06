@@ -3,3 +3,6 @@
 main
 main.bin
 main.hex
+noisegen
+output.raw
+output.wav

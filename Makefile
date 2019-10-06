@@ -3,7 +3,8 @@
 DEVICE := attiny26
 DUDE_DEV := t26
 CLOCK := 16000000
-OBJS := main.o
+OBJS := main.o 
+#noisegen.o
 
 CC := avr-gcc
 CFLAGS := -std=c11 -g3 -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE)
